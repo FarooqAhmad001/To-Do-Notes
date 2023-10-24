@@ -1,5 +1,6 @@
 package com.hypersoft.notesapp.ui.theme
 
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
 val Purple80 = Color(0xFFD0BCFF)
@@ -14,3 +15,8 @@ val LowPriorityColor = Color(0xFF00C980)
 val MediumPriorityColor = Color(0xFFFFC114)
 val HighPriorityColor = Color(0xFFFF4646)
 val NonePriorityColor = Color(0xFFFFFFFF)
+
+val LightGray = Color(0xFFFCFCFC)
+val MediumGray = Color(0xFF9C9C9C)
+val DarkGray = Color(0xFF141414)
+
