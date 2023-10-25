@@ -7,6 +7,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
+import com.hypersoft.notesapp.ui.theme.customColorPalette
 
 @Composable
 fun ListAppBar(){
@@ -22,7 +23,8 @@ fun DefaultListAppBar(){
             Text(text = "Tasks")
         },
         colors = TopAppBarDefaults.smallTopAppBarColors(
-            containerColor = MaterialTheme.colorScheme.primary
+            containerColor = MaterialTheme.colorScheme.primary,
+            titleContentColor = MaterialTheme.customColorPalette.topAppBarColor
         )
     )
 }
